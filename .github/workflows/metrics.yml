@@ -1,29 +1,43 @@
 name: Update profile metrics
 
 on:
+  # Runs every 6 hours
   schedule:
-    - cron: "0 */12 * * *"   # Runs every 12 hours
-  workflow_dispatch:          # Allow manual run from Actions tab
+    - cron: "0 */6 * * *"
+  # Allow manual trigger
+  workflow_dispatch:
 
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write         # Needed to commit the SVG
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}   # GitHub provides this automatically
+          # ✅ Use your secret token here
+          token: ${{ secrets.METRICS_TOKEN }}
           user: GopiB9119
           filename: github-metrics.svg
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Kolkata
 
-          # 🔥 Plugins
+          # --- Plugins ---
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+          plugin_languages: yes
+          plugin_languages_ignored: html, css
+          plugin_languages_details: percentage
+          plugin_languages_limit: 8
+
+          plugin_followup: yes
+          plugin_followup_sections: user, repositories
+
+          plugin_stars: yes
+          plugin_stars_limit: 4
+
           plugin_achievements: yes
           plugin_achievements_display: compact
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
+          plugin_achievements_threshold: C
 
-          # Commit output back to repo
-          output_action: commit
+          plugin_streak: yes
+          plugin_streak_days: 365
