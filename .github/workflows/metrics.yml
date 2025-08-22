@@ -1,48 +1,25 @@
-name: Update GitHub Metrics
+name: Update profile metrics
 
 on:
-  # Run workflow once a day at 6:00 AM IST
   schedule:
-    - cron: "0 0 * * *"
-  # Allow manual trigger from Actions tab
-  workflow_dispatch:
+    - cron: "0 */12 * * *"   # every 12 hours
+  workflow_dispatch:          # allow manual runs
 
 jobs:
-  build:
+  github-metrics:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write         # so it can commit the SVG
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # Use your classic token stored as secret
-          token: ${{ secrets.GOPI_TOKEN }}
-
-          # Your GitHub username
-          user: GopiB9119
-
-          # Output file (SVG)
+          token: ${{ secrets.GITHUB_TOKEN }}   # built-in; no PAT needed for basics
+          user: YOUR_USERNAME
           filename: github-metrics.svg
-
-          # Base sections
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Kolkata
-
-          # Achievements (trophies)
           plugin_achievements: yes
           plugin_achievements_display: compact
-
-          # Contribution calendar
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
-
-          # Languages activity
-          plugin_languages: yes
-          plugin_languages_ignored: html,css,scss
-          plugin_languages_details: percentage
-          plugin_languages_display: most-used
-
-          # Followers
-          plugin_followers: yes
-
-          # Recently starred repositories
-          plugin_stars: yes
-          plugin_stars_limit: 5
+          output_action: commit
