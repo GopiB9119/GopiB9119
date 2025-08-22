@@ -4,7 +4,7 @@
 </p>
 
 <!-- Introduction -->
-<h2 align="center">Hi there 👋, I'm Gopi Banoth</h2>
+<h2 align="center">Hi there! 👋 Nice to meet you, I'm Gopi Banoth</h2>
 <p align="center">
   🚀 <strong>Full-Stack Developer</strong> | ☁️ <strong>Cloud Enthusiast (Azure)</strong> | 🤖 <strong>AI Integrations</strong>  
 </p>
