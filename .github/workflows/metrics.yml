@@ -13,20 +13,20 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # Use your personal access token stored as secret
+          # Use your classic token stored as secret
           token: ${{ secrets.GOPI_TOKEN }}
 
           # Your GitHub username
           user: GopiB9119
 
-          # Output file (will be created in your repo)
+          # Output file (SVG)
           filename: github-metrics.svg
 
           # Base sections
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Kolkata
 
-          # Enable Achievements
+          # Achievements (trophies)
           plugin_achievements: yes
           plugin_achievements_display: compact
 
@@ -34,11 +34,15 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
-          # Languages used
+          # Languages activity
           plugin_languages: yes
-          plugin_languages_ignored: html, css, scss
+          plugin_languages_ignored: html,css,scss
           plugin_languages_details: percentage
+          plugin_languages_display: most-used
 
-          # Stars received
+          # Followers
+          plugin_followers: yes
+
+          # Recently starred repositories
           plugin_stars: yes
           plugin_stars_limit: 5
