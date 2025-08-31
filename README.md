@@ -46,7 +46,7 @@
 ## 🚀 Featured Projects
 <p align="center">
   <a href="https://github.com/GopiB9119/Neighborly"><b>Neighborly</b></a> - A neighborhood social platform for better community engagement.  
-  <a href="https://github.com/GopiB9119/DreamCastle"><b>Dream Castle</b></a> - Real estate web app with modern UI and dynamic features.  
+  <a href="https://github.com/GopiB9119/Dream-Castle"><b>Dream Castle</b></a> - Real estate web app with modern UI and dynamic features.  
   <a href="https://github.com/GopiB9119/Portfolio"><b>Portfolio Website</b></a> - My personal developer portfolio built with Next.js & Tailwind.
 </p>
 
