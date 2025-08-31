@@ -68,7 +68,7 @@
   <a href="mailto:banothgopikrishna19@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <a href="https://www.linkedin.com/in/gopib-960965243/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="https://github.com/GopiB9119"><img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white"/></a>
-  <a href="https://gopiportfolioapp.azurewebsites.net/"><img src="https://img.shields.io/badge/Portfolio-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white"/></a>
+  <a href="https://gopiportfolio-cvc4e8emamgtbac8.centralindia-01.azurewebsites.net/"><img src="https://img.shields.io/badge/Portfolio-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white"/></a>
 </p>
 
 
