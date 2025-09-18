@@ -61,9 +61,8 @@
 </p>
 
 <!-- Snake contribution graph (will work after workflow setup) -->
-<p align="center">
-  <img src="https://github.com/GopiB9119/GopiB9119/blob/output/snake.svg" />
-</p>
+![GitHub Snake Light](https://raw.githubusercontent.com/GopiB9119/GopiB9119/main/snake.svg#gh-light-mode-only)
+![GitHub Snake Dark](https://raw.githubusercontent.com/GopiB9119/GopiB9119/main/snake.svg#gh-dark-mode-only)
 
 ---
 
