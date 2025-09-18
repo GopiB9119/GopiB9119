@@ -39,16 +39,9 @@
 ## 🚀 Featured Projects
 <p align="center">
   <a href="https://github.com/GopiB9119/Neighborly"><b>🏘 Neighborly</b></a><br>
-  <img src="https://via.placeholder.com/600x300.png?text=Neighborly+Preview" width="400"/><br>
+<!--   <img src="https://via.placeholder.com/600x300.png?text=Neighborly+Preview" width="400"/><br> -->
   Smart community management platform (Azure + Python).
 </p>
-
-<p align="center">
-  <a href="https://github.com/GopiB9119/Dream-Castle"><b>🏰 Dream Castle</b></a><br>
-  <img src="https://via.placeholder.com/600x300.png?text=Dream+Castle+Preview" width="400"/><br>
-  AI-based creative storytelling app (LLMs).
-</p>
-
 <p align="center">
   <a href="https://github.com/GopiB9119/Portfolio"><b>🌐 Portfolio Website</b></a><br>
   <img src="https://via.placeholder.com/600x300.png?text=Portfolio+Preview" width="400"/><br>
