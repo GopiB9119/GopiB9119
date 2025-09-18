@@ -62,7 +62,7 @@
 
 <!-- Snake contribution graph (will work after workflow setup) -->
 <p align="center">
-  <img src="https://github.com/GopiB9119/GopiB9119/blob/output/snake.svg" alt="Snake animation" />
+  <img src="https://github.com/GopiB9119/GopiB9119/blob/output/snake.svg" />
 </p>
 
 ---
