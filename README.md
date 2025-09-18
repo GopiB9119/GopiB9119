@@ -20,19 +20,14 @@
 
 ## 🛠️ Tech Stack
 <p align="center">
-  <!-- Languages -->
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
-
-  <!-- Frameworks -->
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white"/>
   <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/>
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
-
-  <!-- Cloud & Tools -->
   <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
   <img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
@@ -43,25 +38,45 @@
 
 ## 🚀 Featured Projects
 <p align="center">
-  <a href="https://github.com/GopiB9119/Neighborly"><b>🏘 Neighborly</b></a> - Smart community management platform (Azure + Python).<br>
-  <a href="https://github.com/GopiB9119/Dream-Castle"><b>🏰 Dream Castle</b></a> - AI-based creative storytelling app (LLMs).<br>
-  <a href="https://github.com/GopiB9119/Portfolio"><b>🌐 Portfolio Website</b></a> - Personal site built with Next.js & Tailwind.
+  <a href="https://github.com/GopiB9119/Neighborly"><b>🏘 Neighborly</b></a><br>
+  <img src="https://via.placeholder.com/600x300.png?text=Neighborly+Preview" width="400"/><br>
+  Smart community management platform (Azure + Python).
+</p>
+
+<p align="center">
+  <a href="https://github.com/GopiB9119/Dream-Castle"><b>🏰 Dream Castle</b></a><br>
+  <img src="https://via.placeholder.com/600x300.png?text=Dream+Castle+Preview" width="400"/><br>
+  AI-based creative storytelling app (LLMs).
+</p>
+
+<p align="center">
+  <a href="https://github.com/GopiB9119/Portfolio"><b>🌐 Portfolio Website</b></a><br>
+  <img src="https://via.placeholder.com/600x300.png?text=Portfolio+Preview" width="400"/><br>
+  Personal site built with Next.js & Tailwind.
 </p>
 
 ---
 
 ## 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=GopiB9119&show_icons=true&theme=radical&hide_border=true" height="150"/>
-  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=GopiB9119&layout=compact&theme=radical&hide_border=true" height="150"/>
+  <img src="https://github-readme-stats-rickstaa.vercel.app/api?username=GopiB9119&show_icons=true&theme=radical&hide_border=true" height="150"/>
+  <img src="https://github-readme-stats-rickstaa.vercel.app/api/top-langs/?username=GopiB9119&layout=compact&theme=radical&hide_border=true" height="150"/>
 </p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=GopiB9119&theme=radical&hide_border=true" height="150"/>
 </p>
 
+<!-- Snake contribution graph (will work after workflow setup) -->
 <p align="center">
-  <img src="https://github.com/GopiB9119/GopiB9119/blob/output/github-contribution-grid-snake.svg" />
+  <img src="https://github.com/GopiB9119/GopiB9119/blob/output/snake.svg" alt="Snake animation" />
+</p>
+
+---
+
+## 📈 GitHub Activity Graph
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=GopiB9119&theme=radical&hide_border=true" />
 </p>
 
 ---
