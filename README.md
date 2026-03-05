@@ -3,9 +3,15 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Gopi%20Banoth&fontSize=40&fontColor=fff&animation=twinkling&fontAlignY=35"/>
 </p>
 
-# Hi there 👋, I'm Gopi Banoth
-
-🚀 Passionate about **AI, Cloud, and Full-Stack Development** | Exploring **LLMs, Databricks, and Azure** | Always learning and building cool stuff 💡
+<!-- Introduction -->
+<h2 align="center">Hi there! 👋 Nice to meet you, I'm Gopi Banoth</h2>
+<p align="center">
+  🚀 <strong>Full-Stack Developer</strong> | ☁️ <strong>Cloud Enthusiast (Azure)</strong> | 🤖 <strong>AI Integrations</strong>  
+</p>
+<p align="center">
+  Passionate about building modern web apps, integrating AI, and creating impactful digital solutions.  
+  Always learning, always improving.
+</p>
 
 ---
 
